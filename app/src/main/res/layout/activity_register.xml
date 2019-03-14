@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".RegisterActivity">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="enter student name"
+        android:id="@+id/studentname"
+        android:inputType="text"
+        android:textColor="#000000"
+        android:layout_margin="10dp"
+        android:textSize="20dp"/>
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="enter student id"
+        android:id="@+id/studentid"
+        android:layout_margin="10dp"
+        android:inputType="textWebEditText"
+        android:textColor="#000000"
+        android:textSize="20dp"/>
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="save"
+        android:layout_gravity="center"
+        android:textSize="25dp"
+        android:id="@+id/savedata"
+        android:layout_margin="10dp"
+        android:textColor="#ffffff"
+        android:background="#ef3cec"
+        android:onClick="save"/>
+
+</LinearLayout>
