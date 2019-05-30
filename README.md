@@ -1,5 +1,5 @@
 # RoomDataBaseCodelabs
-Sample Android Project that store database for android application
+Sample Android Project that store database for android application.
 
 
 **Room**
